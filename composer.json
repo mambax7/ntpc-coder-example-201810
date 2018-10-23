@@ -1,0 +1,21 @@
+{
+    "name": "t301000/php-dev-docker",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "t301000",
+            "email": "t301000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "kounta/lightopenid": "^0.7.1"
+    },
+    "autoload": {
+        "files": [
+            "helpers/my_utils_helper.php"
+        ],
+        "classmap": []
+    }
+}
